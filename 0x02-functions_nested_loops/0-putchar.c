@@ -5,7 +5,7 @@
 
 int main(void)
 {
-	char c[9]_putchar;
+	char c[9] = "_putchar";
 	int i = 0;
 	while (i < 8)
 	{
@@ -15,4 +15,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
