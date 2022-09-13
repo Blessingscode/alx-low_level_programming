@@ -2,7 +2,7 @@
 
 /*
  * main - Entry point
- * Description: _putchar writes to stdout
+ * Description:_putchar followed by a new line
  * Return:0
  */
 
