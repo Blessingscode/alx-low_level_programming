@@ -1,22 +1,16 @@
 #include "main.h"
 /**
- * print_sign - main function
- * @n: character to compare
- * Return: 1 if positive, 0 if zero, -1 if negative
+ * _isalpha - function to check if c is a letter, lower case or upper case
+ * @c: is the int that we'll use for the argument of the function
+ * Return: 0
  */
-
-int print_sign(int n)
+int_isalpha(int c)
 {
-	if (n > 0)
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
-	_putchar('+');
 	return (1);
 	}
-	if (n == 0)
-	{
-	_putchar('0');
+	else
 	return (0);
-	}
-	_putchar('-');
-	return (-1);
 }
+
