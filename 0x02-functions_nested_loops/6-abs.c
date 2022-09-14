@@ -1,13 +1,16 @@
 #include "main.h"
-#include "6-abs.c"
+#include <stdio.h>
 /**
- * print_last_digit - main function
- *@n: integer to get last digit of
- * Return: last digit of n
- */
-
-int print_last_digit(int n)
+* _abs - function that computes the absolute value of an integer
+* @c: is the int that will use for the argument of the function
+* Return: 0
+*/
+int _abs(int c)
 {
-	_putchar('0' + _abs(n % 10));
-	return (_abs(n % 10));
+	if (c > 0 || c == 0)
+	{
+	return (c);
+	}
+	else
+	return (c * -1);
 }
