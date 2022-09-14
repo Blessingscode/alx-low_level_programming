@@ -13,4 +13,3 @@ int_isalpha(int c)
 	else
 	return (0);
 }
-^c
