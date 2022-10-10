@@ -24,4 +24,10 @@ Projects
 | 0x0A-argc_argv |
 
 | 0x0B-malloc_free |
+
+| 0x0C-more_malloc_free |
+
+| 0x0D-preprocessor |
+
+| 0x0E-structures_typedef |
 >>>>>>> a8b32138dbb04ea557b227579391cb554de7d9cd
