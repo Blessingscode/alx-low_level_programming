@@ -59,6 +59,7 @@ printTypeStruct printType[] = {
 	{NULL, NULL}
 };
 
+
 va_start(list, format);
 
 while (format && format[i])
