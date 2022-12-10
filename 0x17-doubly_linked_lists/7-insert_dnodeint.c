@@ -2,12 +2,10 @@
 
 /**
 * insert_dnodeint_at_index - insert  a node to a dlistint_t list.
-
 * @h: double pointer to structure
 * @idx: index of node to get from the list
 * @n: data
 * Return: the adrress of nth node, or NULL if it failed
-
 */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
