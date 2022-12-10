@@ -1,7 +1,6 @@
 #include "lists.h"
 /**
 * delete_dnodeint_at_index - delet  a node in a given position
-
 * @head: double pointer to structure
 * @index: index of node to delete from the list
 * Return: 1 sucess, -1 failure
